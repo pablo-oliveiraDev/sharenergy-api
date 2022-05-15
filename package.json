@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon server/server.js",
+    "test": "jest --env node",
+    "startDocker": "docker compose start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "icons": "^1.0.0",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "pg-promise": "^10.11.1",
+    "react": "^18.0.0"
+  }
+}
